@@ -3,7 +3,6 @@ import React from "react";
 import { TextGenerateEffectDemo } from "./GenerateText";
 import Link from "next/link";
 import Image from "next/image";
-import meetup1 from "../../public/Meetup1.png";
 import meetup2 from "../../public/meetup2.png";
 import meetup3 from "../../public/Meetup3.png";
 
@@ -35,21 +34,21 @@ const IntroHeader = () => {
         </div>
         <div className="flex gap-x-5 justify-center items-center sm:items-start  mt-8 sm:mt-0">
           <Image
-            src={meetup1}
+            src="/Meetup1.png"
             width={200}
             height={400}
             alt="pic1"
             className="hidden xl:block rounded-lg"
           />
           <Image
-            src={meetup2}
+            src="/meetup2.png"
             width={200}
             height={400}
             alt="pic2"
             className="hidden lg:block rounded-lg"
           />
           <Image
-            src={meetup3}
+            src="/meetup3.png"
             width={200}
             height={400}
             alt="pic3"
