@@ -11,20 +11,25 @@ const Herodsa = () => {
             Months!
           </p>
           <p className="text-xl opacity-50 pl-4">
-            New "Data Structures & Algorithms" Batch
+            New Data Structures & Algorithms Batch
           </p>
           <p className="relative flex items-center rounded-xl ml-4 justify-center w-1/3 hover:cursor-pointer h-12 text-lg shadow-lg font-semibold overflow-hidden">
             <span className="absolute inset-0 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 rounded-xl transition-all flex justify-center items-center text-white hover:translate-x-1">
-              Join SoarX Plus &rarr;
+              Join SoarX Plus;
             </span>
           </p>
         </div>
       </div>
       <div className="sm:w-1/2 w-full flex items-center justify-center">
         <div className="overflow-x-hidden flex justify-center   items-center">
-        <Image src="https://media4.giphy.com/media/p4NLw3I4U0idi/giphy.gif" alt="Gif" width={500} height={300}/>
+          <Image
+            src="https://media4.giphy.com/media/p4NLw3I4U0idi/giphy.gif"
+            alt="Gif"
+            width={500}
+            height={300}
+          />
         </div>
-      </div>  
+      </div>
     </div>
   );
 };
