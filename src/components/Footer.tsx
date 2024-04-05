@@ -18,7 +18,7 @@ function Footer() {
             <li>
               <Link
                 href="#"
-                className="transition-colors duration-300"
+                className="transition-colors hover:transition-all duration-300 hover:font-bold"
               >
                 Home
               </Link>
@@ -27,7 +27,7 @@ function Footer() {
             <li>
               <Link
                 href="#"
-                className="transition-colors duration-300"
+                className="transition-colors hover:transition-all duration-300 hover:font-bold"
               >
                 Courses
               </Link>
@@ -35,7 +35,7 @@ function Footer() {
             <li>
               <Link
                 href="#"
-                className="transition-colors duration-300"
+                className="transition-colors hover:transition-all duration-300 hover:font-bold"
               >
                 Contact
               </Link>
@@ -47,19 +47,19 @@ function Footer() {
           <div className="flex space-x-4">
             <Link
               href="#"
-              className="hover:text-white transition-colors duration-300"
+              className="hover:font-bold hover:transition-all transition-colors duration-300"
             >
               Facebook
             </Link>
             <Link
               href="#"
-              className="hover:text-white transition-colors duration-300"
+              className="hover:font-bold hover:transition-all transition-colors duration-300"
             >
               Twitter
             </Link>
             <Link
               href="#"
-              className="hover:text-white transition-colors duration-300"
+              className="hover:font-bold hover:transition-all transition-colors duration-300"
             >
               Instagram
             </Link>

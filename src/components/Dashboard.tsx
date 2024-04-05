@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 const Dashboard = () => {
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden relative top-12'>
       <Navbar2/>
       <IntroHeader/>
       <Parnters/>

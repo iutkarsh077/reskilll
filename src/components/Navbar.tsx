@@ -3,24 +3,18 @@ import React, { useState } from "react";
 import SoarxLogo from "../../public/soarx-logo.png";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Navbar2() {
-  const menuItems = [
-    "Partners",
-    "Initiatives",
-    "Events",
-    "Community",
-    "Hackathon",
-    "Log Out",
-  ];
+  const menuItems = ["DSA", "Events", "Community", "Hackathon", "Log Out"];
 
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-white shadow-xl fixed top-0 w-screen z-50">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Image
               src={SoarxLogo}
@@ -31,7 +25,6 @@ export default function Navbar2() {
             />
             <p className="font-bold text-black ml-2 text-lg">SOARX</p>
           </div>
-          {/* Hamburger icon for small screens */}
           <div className="-mr-2 flex items-center md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -57,11 +50,25 @@ export default function Navbar2() {
           </div>
           {/* Navbar links */}
           <div className="hidden md:flex md:space-x-4">
+            <Link
+              href="/"
+              className={`text-black ease-in-out transition duration-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium ${
+                pathname === "/"
+                  ? "bg-gray-700 text-white"
+                  : ""
+              }`}
+            >
+              Home
+            </Link>
             {menuItems.map((item, index) => (
               <Link
                 key={`${item}-${index}`}
-                href="#"
-                className="text-black ease-in-out transition duration-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                href={`/${item}`.toLowerCase()}
+                className={`text-black ease-in-out transition duration-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium ${
+                  pathname === `/${item.toLowerCase()}`
+                    ? "bg-gray-700 text-white"
+                    : ""
+                }`}
               >
                 {item}
               </Link>
