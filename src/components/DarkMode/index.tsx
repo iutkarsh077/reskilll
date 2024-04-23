@@ -29,7 +29,7 @@ export default function ThemeSwitch() {
       defaultSelected
       size="lg"
       color="secondary"
-      thumbIcon={({ isSelected, className }) =>
+      thumbIcon={({ isSelected, className }:any) =>
         isSelected ? (
           <SunIcon className={className} />
         ) : (
