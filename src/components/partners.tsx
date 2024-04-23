@@ -15,8 +15,8 @@ const Parnters = () => {
       </div>
       <div className="flex flex-wrap justify-center items-center gap-10 p-2">
         <Image src={microsoft} width={100} height={100} alt="Microsoft" className="rounded-lg sm:w-auto w-30" />
-        <Image src={github} width={100} height={100} alt="Google" className="rounded-lg sm:w-auto w-30" />
-        <Image src={uber} width={100} height={100} alt="Apple" className="rounded-lg sm:w-auto w-30" />
+        <Image src={github} width={100} height={100} alt="github" className="rounded-lg sm:w-auto w-30 filter dark:invert" />
+        <Image src={uber} width={100} height={100} alt="uber" className="rounded-lg sm:w-auto w-30 dark:filter dark:invert" />
         <Image src={spark} width={100} height={100} alt="Amazon" className="rounded-lg sm:w-auto w-30" />
         <Image src={adobe} width={100} height={100} alt="Facebook" className="rounded-lg sm:w-auto w-30" />
         <Image src={intuit} width={100} height={100} alt="Tesla" className="rounded-lg sm:w-auto w-30" />

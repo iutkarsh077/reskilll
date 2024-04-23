@@ -5,9 +5,9 @@ import NextUIProviders from "@/Context/NextUIProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Soarx",
+  title: "Reskilll",
   description:
-    "Soarx is a platform for  developer communities to grow and thrive.",
+    "Reskilll is a platform for  developer communities to grow and thrive.",
 };
 
 export default function RootLayout({

@@ -11,14 +11,14 @@ const IntroHeader = () => {
     <div>
       <div className="sm:flex w-full  justify-between py-8 px-4 sm:px-12">
         <div className="w-full sm:w-1/2 flex flex-col justify-center items-center sm:items-start">
-          <div className="text-black text-center sm:text-left mb-4">
+          <div className="text-center sm:text-left mb-4">
             <h1 className="text-3xl sm:text-4xl font-bold">
               Networking | Meetups | UpSkill
             </h1>
           </div>
-          <div className="text-black text-center sm:text-left mb-4">
+          <div className="text-center sm:text-left mb-4">
             <p className="text-lg sm:text-xl">
-              Enhance Your Career Growth with Soarx
+              Enhance Your Career Growth with Reskilll
             </p>
           </div>
           <div className="mb-6">
@@ -26,7 +26,7 @@ const IntroHeader = () => {
           </div>
           <div className="w-full lg:w-1/4 sm:w-48">
             <Link href="#">
-            <button className="bg-pink-600 hover:bg-white ease-in-out hover:text-black  text-white font-medium py-3 px-6 rounded-md xl:text-lg text-sm text-center transition duration-300 hover:border-pink-500 hover:shadow-xl">
+            <button className="bg-pink-600 signInbut ease-in-out  font-medium py-3 px-6 rounded-md xl:text-lg text-sm text-center transition duration-300 hover:border-pink-500 hover:shadow-xl">
               Explore
             </button>
             </Link>

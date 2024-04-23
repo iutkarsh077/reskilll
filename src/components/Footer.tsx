@@ -2,18 +2,18 @@
 import Link from "next/link";
 function Footer() {
   return (
-    <footer className="bg-white text-black py-12">
+    <footer className="py-12 dark:bg-gradient-to-b border-2 dark:border-0 border-opacity-20 border-t-black dark:from-gray-900 mt-20 dark:to-gray-700">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
         <div>
-          <h2 className="text-black text-lg font-semibold mb-4">About Us</h2>
+          <h2 className="text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Soarx is a premier networking dedicated to
+            Reskill is a premier networking dedicated to
             teaching the intricate skills and knowledge essential to mastering
             the art and science of coding.
           </p>
         </div>
         <div>
-          <h2 className="text-black text-lg font-semibold mb-4">Quick Links</h2>
+          <h2 className="text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
               <Link
@@ -43,7 +43,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="text-black text-lg font-semibold mb-4">Follow Us</h2>
+          <h2 className="text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
             <Link
               href="#"
@@ -66,15 +66,15 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h2 className="text-black text-lg font-semibold mb-4">Contact Us</h2>
+          <h2 className="text-lg font-semibold mb-4">Contact Us</h2>
           <p>New York City, USA</p>
           <p>New York 10001</p>
-          <p>Email: info@soarx.com</p>
+          <p>Email: info@reskilll.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">
-        © 2024 Soarx. All rights reserved.
+        © 2024 Reskilll. All rights reserved.
       </p>
     </footer>
   );

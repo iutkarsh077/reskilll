@@ -45,7 +45,7 @@ const CourseDetails = () => {
     },
   ];
   return (
-    <div className="w-screen h-[650px] sm:pt-10 pt-6 overflow-x-hidden bg-purple-50">
+    <div className="w-screen h-[650px] sm:pt-10 pt-6 overflow-x-hidden bg-purple-50 dark:bg-black">
       <p className="uppercase pl-7 text-xl font-bold">Batch Overview</p>
       <div className="w-full flex">
         <div className="left w-1/2 pt-10 flex flex-col  pl-10 gap-y-5 overflow-x-hidden">
@@ -81,11 +81,11 @@ const CourseDetails = () => {
           </div>
         ))}
       </div>
-      <p className="flex justify-center pt-4 pb-4 text-2xl font-semibold bg-purple-50">
+      <p className="flex justify-center pt-4 pb-4 text-2xl font-semibold bg-purple-50 dark:bg-black">
         Become the <span className="text-purple-700 pl-2 pr-2"> Top 1% </span>{" "}
         in your Placement
       </p>
-      <div className="w-full flex flex-wrap justify-center gap-x-5 bg-purple-50">
+      <div className="w-full flex mt-5 flex-wrap justify-center gap-x-5 bg-purple-50 dark:bg-black">
         <Card
           images="/images/code.jpeg"
           title="Top Instructors"
@@ -120,7 +120,7 @@ const CourseDetails = () => {
       <div className="w-full bg-white">
         <FounderAndMentorInfo/>
       </div>
-      <div className="w-full bg-white p-16">
+      <div className="w-full bg-white p-16 dark:bg-black">
         <Doubts/>
       </div>
       <Footer/>

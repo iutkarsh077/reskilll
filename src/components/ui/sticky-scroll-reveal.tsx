@@ -42,9 +42,9 @@ export const StickyScroll = ({
   });
 
   const backgroundColors = [
-    "white",
-    "white",
-    "white",
+    "dark:white",
+    "dark:white",
+    "dark:white",
   ];
   const linearGradients = [
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
@@ -81,7 +81,7 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-black max-w-sm mt-10"
+                className="text-kg dark:text-white max-w-sm mt-10"
               >
                 {item.description}
               </motion.p>
